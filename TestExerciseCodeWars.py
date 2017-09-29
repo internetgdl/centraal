@@ -4,7 +4,8 @@ import Exercise1CodeWars
 class TestExerciseCodeWares(unittest.TestCase):
 
     def test_product(self):
-        self.assertSetEqual(Exercise1CodeWars.longest_consec(["zone", "abigail", "theta", "form", "libe", "zas"], 2), "abigailtheta")
+        self.assertEqual(Exercise1CodeWars.longest_consec(["it","it","it", "it", "it","iti"], 6), "ititititititi")
+	self.assertSetEqual(Exercise1CodeWars.longest_consec(["zone", "abigail", "theta", "form", "libe", "zas"], 2), "abigailtheta")
         self.assertSetEqual(Exercise1CodeWars.longest_consec(["ejjjjmmtthh", "zxxuueeg", "aanlljrrrxx", "dqqqaaabbb", "oocccffuucccjjjkkkjyyyeehh"], 1), "oocccffuucccjjjkkkjyyyeehh")
         self.assertSetEqual(Exercise1CodeWars.longest_consec([], 3), "")
         self.assertSetEqual(Exercise1CodeWars.longest_consec(["itvayloxrp","wkppqsztdkmvcuwvereiupccauycnjutlv","vweqilsfytihvrzlaodfixoyxvyuyvgpck"], 2), "wkppqsztdkmvcuwvereiupccauycnjutlvvweqilsfytihvrzlaodfixoyxvyuyvgpck")
