@@ -1,0 +1,3 @@
+def get_number_of_reachable_fields(grid, rows, columns, start_row, start_column):
+    # Your magic here...
+    pass
