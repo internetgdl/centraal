@@ -4,9 +4,11 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+AnotherError	../my_exceptions.py	/^class AnotherError(Exception):$/;"	kind:class	line:5
 Class1.py	../Class1.py	1;"	kind:file	line:1
 Class2.py	../Class2.py	1;"	kind:file	line:1
 Class3.py	../Class3.py	1;"	kind:file	line:1
+CustomError	../my_exceptions.py	/^class CustomError(Exception):$/;"	kind:class	line:1
 Exercise1CodeWars	../TestExerciseCodeWars.py	/^import Exercise1CodeWars$/;"	kind:namespace	line:2
 Exercise1CodeWars	../unit_test.py	/^import Exercise1CodeWars$/;"	kind:namespace	line:2
 Exercise1CodeWars.py	../Exercise1CodeWars.py	1;"	kind:file	line:1
@@ -15,6 +17,8 @@ TestExerciseCodeWares	../TestExerciseCodeWars.py	/^class TestExerciseCodeWares(u
 TestExerciseCodeWares	../unit_test.py	/^class TestExerciseCodeWares(unittest.TestCase):$/;"	kind:class	line:4
 TestExerciseCodeWars.py	../TestExerciseCodeWars.py	1;"	kind:file	line:1
 TestFunctions	../Class3.py	/^class TestFunctions(unittest.TestCase):$/;"	kind:class	line:4
+__init__	../my_exceptions.py	/^    def __init__(self, message):$/;"	kind:member	line:2
+__init__	../my_exceptions.py	/^    def __init__(self,description, message):$/;"	kind:member	line:6
 add_by	../Class2.py	/^def add_by(number):$/;"	kind:function	line:1
 add_by	../functions.py	/^def add_by(value1,value2):$/;"	kind:function	line:1
 cumulative_product_list	../HomeWork1.py	/^def cumulative_product_list(original_list):$/;"	kind:function	line:51
@@ -27,11 +31,12 @@ functions	../Class3.py	/^import functions$/;"	kind:namespace	line:2
 functions.py	../functions.py	1;"	kind:file	line:1
 group_list	../HomeWork1.py	/^def group_list(original_list,size):$/;"	kind:function	line:77
 longest_consec	../Exercise1CodeWars.py	/^def longest_consec(strarr, k):$/;"	kind:function	line:1
+my_exceptions.py	../my_exceptions.py	1;"	kind:file	line:1
 reverse_list	../HomeWork1.py	/^def reverse_list(original_list):$/;"	kind:function	line:16
 suite	../Class3.py	/^    suite =  unittest.TestLoader().loadTestsFromTestCase(TestFunctions)$/;"	kind:variable	line:10
-suite	../TestExerciseCodeWars.py	/^    suite =  unittest.TestLoader().loadTestsFromTestCase(TestExerciseCodeWares)$/;"	kind:variable	line:18
+suite	../TestExerciseCodeWars.py	/^    suite =  unittest.TestLoader().loadTestsFromTestCase(TestExerciseCodeWares)$/;"	kind:variable	line:19
 suite	../unit_test.py	/^    suite =  unittest.TestLoader().loadTestsFromTestCase(TestExerciseCodeWares)$/;"	kind:variable	line:17
-sum_by	../functions.py	/^def sum_by(value1,value2):$/;"	kind:function	line:5
+sum_by	../functions.py	/^def sum_by(value1,value2):$/;"	kind:function	line:10
 test_product	../Class3.py	/^    def test_product(self):$/;"	kind:member	line:6
 test_product	../TestExerciseCodeWars.py	/^    def test_product(self):$/;"	kind:member	line:6
 test_product	../unit_test.py	/^    def test_product(self):$/;"	kind:member	line:5
