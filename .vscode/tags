@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Class1.py	../Class1.py	1;"	kind:file	line:1
+Class2.py	../Class2.py	1;"	kind:file	line:1
+Class3.py	../Class3.py	1;"	kind:file	line:1
+Exercise1CodeWars	../TestExerciseCodeWars.py	/^import Exercise1CodeWars$/;"	kind:namespace	line:2
+Exercise1CodeWars	../unit_test.py	/^import Exercise1CodeWars$/;"	kind:namespace	line:2
+Exercise1CodeWars.py	../Exercise1CodeWars.py	1;"	kind:file	line:1
+HomeWork1.py	../HomeWork1.py	1;"	kind:file	line:1
+TestExerciseCodeWares	../TestExerciseCodeWars.py	/^class TestExerciseCodeWares(unittest.TestCase):$/;"	kind:class	line:4
+TestExerciseCodeWares	../unit_test.py	/^class TestExerciseCodeWares(unittest.TestCase):$/;"	kind:class	line:4
+TestExerciseCodeWars.py	../TestExerciseCodeWars.py	1;"	kind:file	line:1
+TestFunctions	../Class3.py	/^class TestFunctions(unittest.TestCase):$/;"	kind:class	line:4
+add_by	../Class2.py	/^def add_by(number):$/;"	kind:function	line:1
+add_by	../functions.py	/^def add_by(value1,value2):$/;"	kind:function	line:1
+cumulative_product_list	../HomeWork1.py	/^def cumulative_product_list(original_list):$/;"	kind:function	line:51
+cumulative_sum_list	../HomeWork1.py	/^def cumulative_sum_list(original_list):$/;"	kind:function	line:34
+distinct_list	../HomeWork1.py	/^def distinct_list(original_list):$/;"	kind:function	line:68
+duplicates_list	../HomeWork1.py	/^def duplicates_list(original_list):$/;"	kind:function	line:72
+fibonacci_by_number	../HomeWork1.py	/^def fibonacci_by_number(to_number):$/;"	kind:function	line:1
+function_series_fibonacci	../Class1.py	/^def function_series_fibonacci( number ):$/;"	kind:function	line:1
+functions	../Class3.py	/^import functions$/;"	kind:namespace	line:2
+functions.py	../functions.py	1;"	kind:file	line:1
+group_list	../HomeWork1.py	/^def group_list(original_list,size):$/;"	kind:function	line:77
+longest_consec	../Exercise1CodeWars.py	/^def longest_consec(strarr, k):$/;"	kind:function	line:1
+reverse_list	../HomeWork1.py	/^def reverse_list(original_list):$/;"	kind:function	line:16
+suite	../Class3.py	/^    suite =  unittest.TestLoader().loadTestsFromTestCase(TestFunctions)$/;"	kind:variable	line:10
+suite	../TestExerciseCodeWars.py	/^    suite =  unittest.TestLoader().loadTestsFromTestCase(TestExerciseCodeWares)$/;"	kind:variable	line:18
+suite	../unit_test.py	/^    suite =  unittest.TestLoader().loadTestsFromTestCase(TestExerciseCodeWares)$/;"	kind:variable	line:17
+sum_by	../functions.py	/^def sum_by(value1,value2):$/;"	kind:function	line:5
+test_product	../Class3.py	/^    def test_product(self):$/;"	kind:member	line:6
+test_product	../TestExerciseCodeWars.py	/^    def test_product(self):$/;"	kind:member	line:6
+test_product	../unit_test.py	/^    def test_product(self):$/;"	kind:member	line:5
+unit_test.py	../unit_test.py	1;"	kind:file	line:1
+unittest	../Class3.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../TestExerciseCodeWars.py	/^import unittest$/;"	kind:namespace	line:1
+unittest	../unit_test.py	/^import unittest$/;"	kind:namespace	line:1
